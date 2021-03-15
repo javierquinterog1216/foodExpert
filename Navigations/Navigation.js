@@ -1,11 +1,7 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import React from "react";
-import Account from "../screens/Account";
-import Favorites from "../screens/Favorites";
-import Restaurants from "../screens/Restaurants";
-import Search from "../screens/Search";
-import TopRestaurants from "../screens/TopRestaurants";
+
 import { Icon } from "react-native-elements";
 import RestaurantsStack from "./RestaurantsStack";
 import FavoritesStack from "./FavoritesStack";
